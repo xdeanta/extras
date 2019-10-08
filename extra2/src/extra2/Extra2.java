@@ -5,7 +5,7 @@
  */
 package extra2;
 
-import static java.lang.Math.pow;
+
 import java.util.Scanner;
 
 /**
@@ -24,7 +24,7 @@ public class Extra2 {
         sc=new Scanner(System.in);
         System.out.println("Introduzca el radio del circulo:");
         radio=sc.nextFloat();
-        area=Math.PI*pow(radio,2d);
+        area=Math.PI*Math.pow(radio,2d);
         System.out.println("El area del circulo es: " +area);
     }
     
